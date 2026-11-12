@@ -1580,6 +1580,22 @@ input, select, textarea {
 				margin: 0 auto;
 				width: auto;
 			}
+/* Video */
+
+	.video {
+		display: inline-block;
+	}
+
+		.video video {
+			display: block;
+			width: 100%;
+		}
+
+		.video.fit {
+			display: block;
+			width: 100%;
+		}
+
 
 /* Button */
 
