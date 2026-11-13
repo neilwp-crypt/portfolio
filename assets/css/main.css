@@ -72,6 +72,16 @@ input, select, textarea {
 	appearance: none;
 }
 
+/* Flex Layout */
+.navbar{
+	display: flex;
+	align-items: center;
+}
+
+/* Equal Width for Navbar Items / 6 items = 100% / 6 = 16.6667% */
+
+.navbar > * { width: 16.6%; }
+
 /* Row */
 
 	.row {
@@ -1580,22 +1590,6 @@ input, select, textarea {
 				margin: 0 auto;
 				width: auto;
 			}
-/* Video */
-
-	.video {
-		display: inline-block;
-	}
-
-		.video video {
-			display: block;
-			width: 100%;
-		}
-
-		.video.fit {
-			display: block;
-			width: 100%;
-		}
-
 
 /* Button */
 
